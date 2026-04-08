@@ -8,7 +8,6 @@ const navLinks = [
   { label: "Classes", href: "#classes" },
   { label: "Trainers", href: "#trainers" },
   { label: "Membership", href: "#membership" },
-  { label: "Blog", href: "#blog" },
   { label: "Contact", href: "#contact" },
 ];
 
