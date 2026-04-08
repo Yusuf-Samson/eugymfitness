@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <span className="font-display text-3xl text-primary-foreground tracking-widest">
-              EU<span className="text-accent">GYM</span>
+            <span className="font-display text-3xl text-primary tracking-widest">
+              EUGYM <span className="text-primary/70">FITNESS</span>
             </span>
             <p className="mt-3 text-sm leading-relaxed">
               Born from Abuja's streets. Built for our community. Eugym Fitness — where every rep counts and everyone belongs.
