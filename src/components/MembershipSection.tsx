@@ -3,27 +3,27 @@ import { Check, Star } from "lucide-react";
 
 const plans = [
   {
-    name: "Starter",
-    price: "₦15,000",
-    period: "/month",
-    description: "Perfect for beginners testing the waters",
+    name: "Daily Pass",
+    price: "₦2,999",
+    period: "/day",
+    description: "Drop in anytime — no commitment needed",
     features: [
-      "Access to Morning Flow class",
-      "3 gym sessions per week",
-      "Locker room access",
+      "Full gym access for the day",
+      "Access to group classes",
+      "Locker room & showers",
       "Community WhatsApp group",
     ],
     popular: false,
   },
   {
-    name: "Grinder",
-    price: "₦30,000",
+    name: "Monthly",
+    price: "₦29,999",
     period: "/month",
     description: "For the regulars who show up rain or shine",
     features: [
       "Unlimited gym access",
       "All group classes included",
-      "1 personal training session/month",
+      "Locker room access",
       "Nutrition tips from Chinedu",
       "Priority class booking",
       "Towel service",
@@ -31,18 +31,45 @@ const plans = [
     popular: true,
   },
   {
-    name: "Champion",
-    price: "₦50,000",
-    period: "/month",
-    description: "The full Eugym experience, no holding back",
+    name: "Quarterly",
+    price: "₦84,999",
+    period: "/3 months",
+    description: "Commit to the grind and save big",
     features: [
-      "Everything in Grinder",
-      "4 personal training sessions/month",
+      "Everything in Monthly",
+      "1 personal training session/month",
       "Custom workout plan",
-      "Custom meal plan",
       "Guest passes (2/month)",
-      "Free branded merch quarterly",
+      "Free branded merch",
       "Early access to events",
+    ],
+    popular: false,
+  },
+  {
+    name: "Couple Monthly",
+    price: "₦49,999",
+    period: "/month",
+    description: "Sweat together, grow together",
+    features: [
+      "2 full monthly memberships",
+      "All group classes for both",
+      "Shared locker room access",
+      "Community WhatsApp group",
+      "Priority class booking",
+    ],
+    popular: false,
+  },
+  {
+    name: "Boxing (with Trainer)",
+    price: "₦19,999",
+    period: "/month",
+    description: "One-on-one boxing sessions with a pro",
+    features: [
+      "4 boxing sessions/month",
+      "Personal trainer assigned",
+      "Gloves & wraps provided",
+      "Fitness assessment included",
+      "Access to open gym after sessions",
     ],
     popular: false,
   },
@@ -53,16 +80,16 @@ const MembershipSection = () => {
     <section id="membership" className="section-padding bg-foreground">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <span className="text-accent font-display text-lg tracking-widest">Pricing</span>
+          <span className="text-primary font-display text-lg tracking-widest">Pricing</span>
           <h2 className="font-display text-5xl md:text-7xl text-primary-foreground mt-2">
-            Pick Your <span className="text-accent">Plan</span>
+            Pick Your <span className="text-primary">Plan</span>
           </h2>
           <p className="text-primary-foreground/60 text-lg mt-4 max-w-xl mx-auto">
             No hidden fees. No contracts. Cancel anytime — but you won't want to.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {plans.map((plan) => (
             <div
               key={plan.name}
@@ -89,7 +116,7 @@ const MembershipSection = () => {
               <ul className="space-y-3 mb-8">
                 {plan.features.map((f) => (
                   <li key={f} className="flex items-start gap-2 text-sm text-primary-foreground/80">
-                    <Check className="text-accent mt-0.5 shrink-0" size={16} />
+                    <Check className="text-primary mt-0.5 shrink-0" size={16} />
                     {f}
                   </li>
                 ))}

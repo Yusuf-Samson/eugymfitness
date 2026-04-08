@@ -18,8 +18,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-foreground/95 backdrop-blur-md">
       <div className="container mx-auto flex items-center justify-between py-4">
-        <a href="#home" className="font-display text-3xl text-primary-foreground tracking-widest">
-          EU<span className="text-accent">GYM</span>
+        <a href="#home" className="font-display text-3xl text-primary tracking-widest">
+          EUGYM <span className="text-primary/70">FITNESS</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
