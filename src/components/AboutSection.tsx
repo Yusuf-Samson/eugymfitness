@@ -1,9 +1,9 @@
 import { Dumbbell, Heart, Users } from "lucide-react";
 
 const stats = [
-  { icon: Users, value: "500+", label: "Active Members" },
+  { icon: Users, value: "100+", label: "Active Members" },
   { icon: Dumbbell, value: "12", label: "Weekly Classes" },
-  { icon: Heart, value: "3+", label: "Years Strong" },
+  { icon: Heart, value: "1+", label: "Years Strong" },
 ];
 
 const AboutSection = () => {

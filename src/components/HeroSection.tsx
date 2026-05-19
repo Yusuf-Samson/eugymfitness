@@ -42,8 +42,7 @@ const HeroSection = () => {
           </Button>
           <Button
             size="lg"
-            variant="outline"
-            className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-display text-xl tracking-wider px-8 py-6"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground font-display text-xl tracking-wider px-8 py-6 animate-pulse-glow"
             asChild
           >
             <a href="#classes">Explore Classes</a>
