@@ -69,15 +69,17 @@ const ContactSection = () => {
               </div>
             </div>
 
-            {/* Map embed - Aco Estate, Lugbe, Abuja approximate location */}
+            {/* Map embed - Beside NUT Guest House, Aco Estate, Abuja */}
             <div className="rounded-2xl overflow-hidden border border-border h-64">
               <iframe
                 title="Eugym Fitness Location"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=7.35%2C8.98%2C7.40%2C9.02&layer=mapnik&marker=9.0%2C7.375"
+                src="https://www.google.com/maps?q=NUT+Guest+House+Aco+Estate+Lugbe+Abuja&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
               />
             </div>
           </div>
