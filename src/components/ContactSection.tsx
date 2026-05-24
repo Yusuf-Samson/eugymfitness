@@ -73,7 +73,7 @@ const ContactSection = () => {
             <div className="rounded-2xl overflow-hidden border border-border h-64">
               <iframe
                 title="Eugym Fitness Location"
-                src="https://www.google.com/maps?q=NUT+Guest+House+Aco+Estate+Lugbe+Abuja&output=embed"
+                src="https://www.google.com/maps?q=Aco+Estate+Airport+Road+Lugbe+AMAC+Abuja+Nigeria&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
