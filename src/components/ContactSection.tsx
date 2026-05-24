@@ -33,7 +33,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-display text-xl text-foreground">Location</h4>
-                  <p className="text-muted-foreground">Aco Estate, off Airport Road, Lugbe, Abuja, Nigeria</p>
+                  <p className="text-muted-foreground">Beside NUT head office, Aco Estate, Abuja, Nigeria</p>
                 </div>
               </div>
 
