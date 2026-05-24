@@ -1,4 +1,4 @@
-import { Instagram, Twitter, Facebook } from "lucide-react";
+import { Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -37,17 +37,14 @@ const Footer = () => {
 
           <div>
             <h4 className="font-display text-lg text-primary-foreground mb-3">Follow Us</h4>
-            <div className="flex gap-3">
-              <a href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
-                <Instagram size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
-                <Twitter size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
-                <Facebook size={18} />
-              </a>
-            </div>
+            <a
+              href="https://www.instagram.com/eugymfitness/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors inline-flex"
+            >
+              <Instagram size={18} />
+            </a>
             <p className="text-sm mt-4">@eugymfitness</p>
           </div>
         </div>
