@@ -43,7 +43,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-display text-xl text-foreground">Phone / WhatsApp</h4>
-                  <p className="text-muted-foreground">+234 801 234 5678</p>
+                  <p className="text-muted-foreground">09063300205</p>
                 </div>
               </div>
 
@@ -53,7 +53,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-display text-xl text-foreground">Email</h4>
-                  <p className="text-muted-foreground">hello@eugymfitness.ng</p>
+                  <p className="text-muted-foreground">eugymfit@gmail.com</p>
                 </div>
               </div>
 
