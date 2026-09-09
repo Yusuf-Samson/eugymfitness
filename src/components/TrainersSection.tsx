@@ -42,7 +42,7 @@ const TrainersSection = () => {
             <div key={trainer.name} className="group">
               <div className="relative overflow-hidden rounded-2xl mb-6">
                 <img
-                  src={trainer.image}
+                  src={trainer.image.url}
                   alt={trainer.name}
                   className="w-full h-96 object-cover object-top group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"

@@ -75,7 +75,7 @@ const ClassesSection = () => {
           {classes.filter(c => c.featured).map((cls) => (
             <div key={cls.name} className="group relative overflow-hidden rounded-2xl">
               <img
-                src={cls.image!}
+                src={cls.image!.url}
                 alt={cls.name}
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"

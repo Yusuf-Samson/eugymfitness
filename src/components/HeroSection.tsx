@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <img
-        src={heroImg}
+        src={heroImg.url}
         alt="Street workout community in Abuja"
         className="absolute inset-0 w-full h-full object-cover"
         width={1920}
