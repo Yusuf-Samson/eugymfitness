@@ -1,4 +1,4 @@
-import heroImg from "@/assets/hero-gym.jpg";
+import heroImg from "@/assets/gym_interior.jpg.asset.json";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Flame } from "lucide-react";
 

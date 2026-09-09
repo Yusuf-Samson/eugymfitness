@@ -1,5 +1,5 @@
-import aerobicsImg from "@/assets/class-aerobics.jpg";
-import boxingImg from "@/assets/class-boxing.jpg";
+import aerobicsImg from "@/assets/aero.jpg.asset.json";
+import boxingImg from "@/assets/boxing.jpg.asset.json";
 import { Button } from "@/components/ui/button";
 import { Clock, Flame, Zap, Footprints, Dumbbell, Wind } from "lucide-react";
 
