@@ -1,5 +1,5 @@
-import adaImg from "@/assets/trainer-ada.jpg";
-import chineduImg from "@/assets/trainer-chinedu.jpg";
+import adaImg from "@/assets/female_gym_coach.jpg.asset.json";
+import chineduImg from "@/assets/black_gym_coach.jpg.asset.json";
 import { Instagram, Music, Trophy, Zap } from "lucide-react";
 
 const trainers = [
@@ -42,7 +42,7 @@ const TrainersSection = () => {
             <div key={trainer.name} className="group">
               <div className="relative overflow-hidden rounded-2xl mb-6">
                 <img
-                  src={trainer.image}
+                  src={trainer.image.url}
                   alt={trainer.name}
                   className="w-full h-96 object-cover object-top group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
