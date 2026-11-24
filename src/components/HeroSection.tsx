@@ -1,4 +1,4 @@
-import heroImg from "@/assets/gym_interior.jpg.asset.json";
+const heroImg = "/images/gym_interior.jpg";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Flame } from "lucide-react";
 
@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <img
-        src={heroImg.url}
+        src={heroImg}
         alt="Street workout community in Abuja"
         className="absolute inset-0 w-full h-full object-cover"
         width={1920}
