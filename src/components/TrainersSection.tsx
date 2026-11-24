@@ -1,5 +1,5 @@
-import adaImg from "@/assets/female_gym_coach.jpg.asset.json";
-import chineduImg from "@/assets/black_gym_coach.jpg.asset.json";
+const adaImg = "/images/female_gym_coach.jpg";
+const chineduImg = "/images/black_gym_coach.jpg";
 import { Instagram, Music, Trophy, Zap } from "lucide-react";
 
 const trainers = [
