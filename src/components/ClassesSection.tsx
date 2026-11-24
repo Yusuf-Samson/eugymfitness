@@ -1,5 +1,5 @@
-import aerobicsImg from "@/assets/aero.jpg.asset.json";
-import boxingImg from "@/assets/boxing.jpg.asset.json";
+const aerobicsImg = "/images/aero.jpg";
+const boxingImg = "/images/boxing.jpg";
 import { Button } from "@/components/ui/button";
 import { Clock, Flame, Zap, Footprints, Dumbbell, Wind } from "lucide-react";
 
@@ -75,7 +75,7 @@ const ClassesSection = () => {
           {classes.filter(c => c.featured).map((cls) => (
             <div key={cls.name} className="group relative overflow-hidden rounded-2xl">
               <img
-                src={cls.image!.url}
+                src={cls.image}
                 alt={cls.name}
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
